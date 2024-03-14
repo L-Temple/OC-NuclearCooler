@@ -2,8 +2,8 @@ local computer = require('computer')
 local component = require('component')
 local JSON = (loadfile "JSON.lua")()
 local itemConfig = io.open("config.json", "r")
-local redstone1 = component.proxy("00334075-5fa5-4686-8aeb-d1a1c931de5b") -- 1号红石io为控制反应堆
-local redstone2 = component.proxy("8097541a-53c3-492a-9f61-8409e9ccec32") -- 2号红石io为控制全局开关
+local redstone1 = component.proxy("XXXXX") -- 1号红石io为控制反应堆
+local redstone2 = component.proxy("XXXXX") -- 2号红石io为控制全局开关
 local transposer = component.transposer
 local reactor_chamber = component.reactor_chamber
 -- 北:2
